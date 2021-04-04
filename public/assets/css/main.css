@@ -864,9 +864,9 @@ i:hover {
 }
 #main-menu ul .dropdown .dropdown-menu a:hover,
 #main-menu .dropdown .dropdown-menu a .active {
-  background: transparent;
- 
-  transition: all 0.3s ease-in-out 0s;
+background: transparent;
+ background-color: brown; 
+transition: all 0.3s ease-in-out 0s;
 
 }
 #main-menu ul .dropdown .dropdown-menu > li > a:focus {
@@ -3627,3 +3627,15 @@ margin-top: 10px;
 font-size: 25px; 
 color;
 }
+
+.h3{
+  color:white;
+}
+
+.edit{ 
+font-size:15px;
+ color:white;
+}
+
+
+
