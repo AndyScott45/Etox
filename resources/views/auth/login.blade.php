@@ -139,6 +139,11 @@
     margin-top: 40px;
 ">
 
+<div class="container">
+<div class="row">
+<div class="col-md-12 col-sm-12 col-xs-12">
+<div class="content-inner-1">
+
 <div id="logreg-forms">
         <form class="form-signin">
             <h1 class="h3 mb-3 font-weight-normal" style="text-align: center"> Sign in</h1>
@@ -146,7 +151,7 @@
                 <button class="btn facebook-btn social-btn" type="button"><span><i class="fab fa-facebook-f"></i> Sign in with Facebook</span> </button>
                 <button class="btn google-btn social-btn" type="button"><span><i class="fab fa-google-plus-g"></i> Sign in with Google+</span> </button>
             </div>
-            <p style="text-align:center"> OR  </p>
+            <p class="edit" style="text-align:center"> OR  </p>
             <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
             <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="">
             
@@ -184,6 +189,12 @@
             <br>
             
     </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
     <p style="text-align:center">
         <a href="http://bit.ly/2RjWFMfunction toggleResetPswd(e){
     e.preventDefault();
@@ -237,12 +248,5 @@ $(()=>{
     <script src="assets/js/main.js"></script>
     <script src="assets/js/color-switcher.js"></script>
     
-</body>
-</html>
-
-
-
-
-
 </body>
 </html>
